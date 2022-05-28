@@ -34,19 +34,22 @@ View the License ${renderLicenseLink(license)}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}   ${renderLicenseBadge(data.license)}
-[Description](#description)
 
-[Installation](#installation)
+## Table of Contents
 
-[Usage](#usage)
+- [Description](#description)
 
-[Contributors](#contributors)
+- [Installation](#installation)
 
-[Tests](#tests)
+- [Usage](#usage)
 
-[Licenses](#licenses)
+- [Contributors](#contributors)
 
-[Questions](#questions)
+- [Tests](#tests)
+
+- [Licenses](#licenses)
+
+- [Questions](#questions)
 
 ## Description
 
@@ -69,6 +72,7 @@ ${data.contribution}
 ${data.test}
 
 ${renderLicenseSection(licenseGlobal)}
+
 
 ## Questions?
 

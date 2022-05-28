@@ -39,7 +39,7 @@ const questions = [
   {
     type: "rawlist",
     name: "license",
-    message: "What license would you like to add?",
+    message: "What license would you like to use?",
     choices: ["Apache 2.0", "IBM Public 1.0", "Mozilla Public 2.0"],
   },
   {
